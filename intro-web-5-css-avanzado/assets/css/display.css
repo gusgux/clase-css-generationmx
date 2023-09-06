@@ -1,0 +1,61 @@
+/* Display
+
+nos sirve para controlar como se muestra un elemento dentro de nuestro documento.
+
+Esta propieda es distinta de postion por que display se encarga de definir como se muestra u ocultan elementos (no se elima el codigo) 
+
+    -none
+    -inline
+    -block
+    -inline-block
+*/
+
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#articuloUno{
+   
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+#articuloDos{
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid black;
+
+}
+#articuloTres{
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+#contenedorBarraNavegacion{
+    display: inline;
+}
+li{
+    display: inline; 
+    margin: 30px;
+    text-decoration: none;
+    list-style-type: "*";
+}
+
+/*
+none
+hace que el elemento se ocute completamente, y que no ocupe espacio en la pagina(no se elimna), y este valor se utiliza comumente para ocultar elementos debido a lo interaccion con la ventana del navegador (un menu que se oculte cuando la ventan se haga pequeña)
+
+
+inline
+
+es el valor por defecto, hace que el elemento se muestre en linea con el texto que lo rodea
+
+  -block (convierte el elemento en un bloque que ocupe todo el espacio de la pantalla)
+
+
+*/

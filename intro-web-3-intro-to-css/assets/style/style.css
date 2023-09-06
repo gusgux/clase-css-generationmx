@@ -1,0 +1,30 @@
+/* Reglas
+
+    -selector(p)
+    - propiedad (color,fuente,etc)
+    -valor (blue,xxlargem,times new roman,etc)
+    Primero inline, segundo style, tercero externo.
+    
+    para poder seleccionar elementos html
+
+    La palabra reservada class para la clases(.)
+    la palabra reservada id para los id (#)
+    */
+
+
+
+p{
+    background-color: blue;
+}
+
+#Brando{
+    color:red
+}
+#Edna{
+    color:yellow
+}
+
+
+.CH31{
+    color: blue;
+}

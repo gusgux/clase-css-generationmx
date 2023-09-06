@@ -1,0 +1,62 @@
+/* Estilo a un producto en individual
+ */
+
+.contenedorProductos{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#productoUno{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+#productoDos{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    
+/*     position:relative;
+    top:200px; */
+}
+#productoTres{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    position: static;
+}
+/*Estilos de mi boton de inicio*/
+#botonInicio{
+    position: absolute;
+    left: 800PX;
+}
+
+#titulo{
+    position:sticky;
+    top: 1px;
+}
+
+
+/* 
+Relative
+cuando usamos el valor relativo,bamos a posicionar un elemento respecto al flujo normal de trabajo(arriba/abajo,izq/der).se puede decir que vamos a color
+
+Absolute 
+
+cuando usamos el valor absoluto,hacemos que nuestro elemento no  este dentro del flujo normal del documento (quiere decir que SI SE MODIFICAN LOS ELEMENTOS QUE ESTEN AL REDEDOR DEL ELEMENTO CON ABSOLUTE). Quiere decir que si modificamos, no dejamos huecos entre elementos.
+
+
+
+Fixed
+hace que elemento salga del flujo normal del documento.toma como referencia al viewport o tamaño de pantalla,es decir , no le hace caso a nadie mas que a la pantalla por salirse de este flujo
+
+Independientement de si hacemos scroll o no, inclus el tamaño de l pantalla , el boton se queda fijo.
+
+
+sticky cuando usamos un elemento con esta propiedad, primero se comporta como un relative(respeta el flujo del documento),cuando ocurre una situacion especial(tamaño en pixeles),cambia su comportamiento y se comporta como un fixed.
+
+
+caso de su: barra de navegacion o menus que se quedan pegadas cuando se scrollea la pagina*/
